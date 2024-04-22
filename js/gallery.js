@@ -91,7 +91,7 @@ function onImageCalleryClick(event) {
 
   //   console.log(imageCardsEl);
   const instance = basicLightbox.create(
-    `<img src="${imageCardsEl}" alt="img" width:"1112">`
+    `<img src="${imageCardsEl}" alt="img" >`
   );
 
   instance.show();
