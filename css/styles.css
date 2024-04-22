@@ -24,17 +24,16 @@ ol {
 }
 
 body {
-  margin: 24px 156px;
-  width: 1440px;
-  height: 696px;
+  background-color: #fff;
 }
 .gallery {
+  max-width: 1128px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  max-width: 1128px;
 }
 
 .gallery-item {
@@ -42,7 +41,7 @@ body {
 }
 
 .gallery-item :hover {
-  cursor: url("/Vector.svg"), pointer;
+  /* cursor: url("/Vector.svg"), pointer; */
   transform: scale(1.04);
 }
 
